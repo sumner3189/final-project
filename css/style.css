@@ -1,4 +1,7 @@
-body{background-color: aqua;}
+body{background: rgb(228,50,194);
+  background: linear-gradient(90deg, rgb(38, 69, 247) 22%, rgba(255,16,0,1) 47%, rgba(255,0,219,1) 75%);
+  font-family: 'Sans Collegiate One', sans-serif;
+font-size: 200%;}
 h1 {
   text-align: center;
   
@@ -6,6 +9,9 @@ h1 {
 nav ul {
   text-align: center;
   margin: 0 auto;
+  background: rgb(228,50,194);
+background: linear-gradient(90deg, rgba(228,50,194,1) 22%, rgba(0,255,214,1) 52%, rgba(255,0,48,1) 83%);
+height:2rem;
 }
 input[type=text], select, textarea {
   width: 100%; 
@@ -39,4 +45,26 @@ footer{
   background-color: black;
   text-align: center;
   bottom:auto;
+  height: 50px;
+}
+.col{
+  width: 50%;
+  display: inline-flex;
+}
+.container1 {
+  display: flex;
+  height: 75rem;
+}
+.fa-brands{
+  font-size: 2rem;
+}
+i{
+  color: white;
+font-size: larger;
+}
+#youtube{
+  justify-content: center;
+}
+main{
+  height: 75rem;
 }
